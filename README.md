@@ -7,7 +7,7 @@ In the following conditions, the output photo will be using -2eV while the setti
 3. Using 2x zoomed lens for the dedicated wide/telephoto or the fusion camera.
 4. Using iPhone 17 Pro + iOS 26.1. On the other hand, iPhone 16 Pro + iOS 26.1 works as expected in this case.
 
-This repo builds on top of the official [AVCam](https://developer.apple.com/documentation/avfoundation/avcam-building-a-camera-app) repo. See the latest commit to see the changes to reproduce this issue.
+This repo builds on top of the official [AVCam](https://developer.apple.com/documentation/avfoundation/avcam-building-a-camera-app) repo. See [this commit](https://github.com/JuniperPhoton/AVCam-ExposureIssue-iPhone17-2xLens/commit/e906f4124a7bbf21cff16528370774bdd5c2d8ec) to check the changes to reproduce this issue.
 
 To illustrate this issue:
 
