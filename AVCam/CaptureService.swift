@@ -153,6 +153,10 @@ actor CaptureService {
             // Update the service's advertised capabilities.
             updateCaptureCapabilities()
             
+            try! defaultCamera.lockForConfiguration()
+            defaultCamera.videoZoomFactor = 2.0
+            defaultCamera.unlockForConfiguration()
+            
             isSetUp = true
         } catch {
             throw CameraError.setupFailed
